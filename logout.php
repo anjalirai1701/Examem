@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION['name']);
+unset($_SESSION['mobile']);
+unset($_SESSION['email']);
+unset($_SESSION['rollno']);
+unset($_SESSION['course']);
+unset($_SESSION['password']);
+header("location:index.php");
+?>

@@ -1,0 +1,166 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.index::before {
+    content: "";
+    position: absolute;
+    /* background: url('https://images.unsplash.com/photo-1529460608-bc455fccd5a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1190&q=80') no-repeat center center/cover; */
+    /* background: url('images/admin.jpg') no-repeat center center/cover; */
+    /* background: url('images/announcement.jpg') no-repeat center center/cover; */
+    background: url('images/ass.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.nav {
+    /* border-bottom: 1px solid #EAEAEB; */
+    display: inline;
+    /* float: right; */
+    text-align: right;
+    height: 70px;   /*hamburger*/
+    line-height: 70px;
+}
+ /* ------------- Menu ------------ */
+ .menu {
+    margin: -60px 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+.menu a:hover{
+    border-bottom: 2px solid grey;
+}
+label {
+    margin: -60px 20px 0 0;
+    font-size: 36px;
+    line-height: 70px;
+    display: none;
+    width: 40px;
+    float: right;
+    color: white;
+}
+#toggle {
+    display: none;
+}
+
+/*  ++++++++++++++++++++++++++++++++++   All Students    ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.student-data{    
+    border-collapse: collapse;
+  width: 100%;
+}
+.student-data > thead ,th {
+    text-align: center;
+    font-size: 1rem;
+}
+.student-data > th, td {
+    text-align: center;
+    font-size: small;
+  }
+.student-data h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 40px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    display: inline-block;
+ }
+ /* start button */
+ .start > a > input{
+    background-color: #00a139b0;
+    height:25px;
+    margin: 0;
+    width:90px;
+    box-shadow: 1px 2px 6px 1px black;
+  }
+  .start > a > input:hover{
+    background-color: #27d363b0;
+  }
+  /* back link */
+ #back{
+    text-decoration: none;
+    color: white;
+}
+ #back:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* ++++++++++++++++++++++++++++++++ exam start page student  [start_html]  +++++++++++++++++++++++++++++++++++++++ */
+.startexam::before {
+    content: "";
+    position: absolute;
+     background: url('images/announcement.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.starts {
+    background-color: #00a139b0;
+    height:35px;
+    width:150px;
+    margin: 7% 0%;
+    box-shadow: 1px 2px 6px 1px black;
+  }
+.starts:hover{
+    background-color: #27d363b0;
+}
+
+  /* ++++++++++++++++++++++++++++++++ paper start page student  [paper_html]  +++++++++++++++++++++++++++++++++++++++ */
+.startpaper::before {
+    content: "";
+    position: absolute;
+     background: url('images/ass2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.paper{
+    background-color: #00000087;
+    height: 630px;
+    width: 70%;
+    padding-top: 2%;
+    padding-left: 4%;
+    margin-left: 15%;
+    margin-top: 3%;
+    color: #ffffffd6;
+}
+#td {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+/* #td > tr > td {
+    background-color: aqua;
+} */
+ /* +++++++++++++++++++++++++++++++++++     mediaa  Query    ++++++++++++++++++++++++++++++++++- */
+@media only screen and (max-width: 780px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}

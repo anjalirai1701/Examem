@@ -1,0 +1,248 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.index::before {
+    content: "";
+    position: absolute;
+    /* background: url('https://images.unsplash.com/photo-1529460608-bc455fccd5a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1190&q=80') no-repeat center center/cover; */
+    background: url('images/login.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+.nav {
+    display: inline;
+    text-align: right;
+    height: 70px;   /*hamburger*/
+    line-height: 70px;
+}
+  /* ------------- Menu ------------ */
+.menu {
+    margin: -60px 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+.menu a:hover{
+    border-bottom: 2px solid grey;
+}
+
+label {
+    margin: -60px 20px 0 0;
+    font-size: 36px;
+    line-height: 70px;
+    display: none;
+    width: 40px;
+    float: right;
+    color: white;
+}
+#toggle {
+    display: none;
+}
+  
+  /* ++++++++++++++++++++++++++++++++++++++ login form +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  
+  .form{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 40px;
+    background: none;
+    margin-bottom: 100px;
+    background-color: #0000008f;
+}
+
+ .form .col{
+      margin-left: 10px;
+      background-color: transparent;
+ }
+ .form .col{
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: #0000008c;
+    color: white;
+    /* border: 2px solid black; */
+}
+ .form .feedback{
+    margin-left: 25px;
+    margin-top: -30px;
+    /* margin-bottom: 50px; */
+    background-color: #0000008c;
+    width: 96%;
+    height: 120px;
+    border-radius: 5px;
+    color: grey;
+}
+.form button{
+    background-color: #0c533f ;
+    border: #0c533f;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px 0px black;
+    /* background: none; */
+    width: 90%;
+    margin-left: 5%;
+}
+.form button:hover{
+    background-color: transparent;
+    border: 2px solid #0c533f;
+}
+.form .fa {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.form h1 {
+   border-bottom: 5px solid #006d4e;
+   font-size: 40px;
+   margin-bottom: 43px;
+   display: inline-block;
+}
+.form p{
+  margin-bottom: 30px;
+}
+.row .login-space{
+  margin-bottom: 10px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++ Student Registration form  +++++++++++++++++++++++++++++++++*/
+.sform{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 40px;
+    background: none;
+    margin-bottom: 100px;
+    background-color: #0000008f;
+}
+.sform button{
+    background-color: #0c533f ;
+    border: #0c533f;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px 0px #006d4e;
+    /* background: none; */
+    width: 40%;
+    margin-right: 4%;
+    margin-left: 6%;
+}
+.sform button:hover{
+    /* background-color: #0c533f; */
+    background-color: transparent;
+    border: 1px solid black;
+}
+.sform h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 40px;
+    margin-bottom: 43px;
+    display: inline-block;
+    /* color: black; */
+ }
+.sform .col{
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: #0000008c;
+    color: white;
+    /* border: 2px solid black; */
+}
+.sform .gender{
+    margin: 0px 10px;
+    width: 45%;
+    padding: 0px 0;
+    word-spacing: 10px;
+}
+.sform .fa {
+    margin-top: 15px;
+    margin-right: 1px;
+    margin-left: 0px;
+}
+
+/*  ++++++++++++++++++++++++++++++++++   All Students    ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.student-data{
+    /* color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 0px;
+    background: none;
+    margin-bottom: 100px;   */
+    
+    border-collapse: collapse;
+  width: 100%;
+}
+.student-data > th, td {
+    text-align: left;
+    font-size: x-small;
+  }
+.student-data h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 40px;
+    margin-bottom: 18px;
+    display: inline-block;
+ }
+
+  /* -----------  login button -------- */
+ .login-btn{
+    /* position: absolute; */
+    text-align: center;
+    font-size: 13px;
+    height: 30px;
+    width: 110px;
+    background: none;
+    border: 3px solid #0c533f;
+    color: white;
+    cursor: pointer;
+    /* margin: -250px 0px 0px 0px ;  */
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px 0px #006d4e;
+}
+.login-btn:hover{
+    background-color: #0c533f;
+    border: 2px solid black;
+}
+/* student manger  ------------- */
+
+#back{
+    text-decoration: none;
+    color: white;
+}
+ #back:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* +++++++++++++++++++++++++++++++++++     mediaa  Query    ++++++++++++++++++++++++++++++++++- */
+@media only screen and (max-width: 780px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}

@@ -1,0 +1,577 @@
+@media (max-width: 319px) and (min-width:250px) {
+    .logo h2 {
+        color: #aaaad1;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding : 0px 300px 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .login-btn{
+        top: 1px;
+        right: 9px;
+        font-size: 12px;
+        justify-content: center;
+        height: 30px;
+        width: 90px;
+        background-color: #0c533f;
+        border: 1px solid white;
+        margin: 10px 0 0 0 ; 
+        border-radius: 5px;
+    }
+    .register-btn{
+        font-size: 1.1rem;
+        justify-content: center;
+        height: 40px;
+        width: 160px;
+        border: 3px solid #0c533f;
+        margin: 12px 33px 0 35px ; 
+    }
+    .oes h1{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 1.70rem;
+        margin-left: 1px;
+    }
+    /* ------login ------- */
+
+    .form{
+        width: 70%;
+        padding: 4px;
+      }
+      .form .col{
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    .form button{
+        background-color: #0c533f ;
+        border: 1px solid black;
+    }
+    .form a{
+        font-size: 0.85rem;
+    }
+    .form input{
+        height: 35px;
+    }
+.form h1 {
+    border-bottom: 4px solid #006d4e;
+    font-size: 1.5rem;
+    margin-bottom: 23px;
+    display: inline-block;
+ }
+ .form p{
+   margin-bottom: 20px;
+   font-size: 0.80rem;
+ }
+ .row .login-space{
+   margin-bottom: 1px;
+ }
+ /*---------- Forgot------------ */
+.row .recover-space {
+    margin-bottom: 5px;
+  }
+
+}
+@media (max-width: 358px) and (min-width:320px) {
+    .logo h2 {
+        color: #aaaad1;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding : 0px 300px 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .login-btn{
+        top: 1px;
+        right: 9px;
+        font-size: 15px;
+        justify-content: center;
+        height: 30px;
+        width: 100px;
+        background-color: #0c533f;
+        border: 1px solid white;
+        margin: 10px 0 0 0 ; 
+        border-radius: 5px;
+    }
+    .register-btn{
+        font-size: 15px;
+        justify-content: center;
+        height: 35px;
+        width: 200px;
+        border: 3px solid #0c533f;
+        margin: 12px 33px 0 55px ; 
+    }
+    .oes h1{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 1.70rem;
+        margin-left: 30px;
+    }
+    /* ------login ------- */
+
+    .form{
+        width: 70%;
+        padding: 4px;
+      }
+      .form .col{
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    .form button{
+        background-color: #0c533f ;
+        border: 1px solid black;
+    }
+    
+.form h1 {
+    border-bottom: 4px solid #006d4e;
+    font-size: 1.5rem;
+    margin-bottom: 23px;
+    display: inline-block;
+ }
+ .form p{
+   margin-bottom: 20px;
+   font-size: 0.80rem;
+ }
+ .row .login-space{
+   margin-bottom: 1px;
+ }
+ /*---------- Forgot------------ */
+.row .recover-space {
+    margin-bottom: 10px;
+    margin-top: 3px;
+  }
+
+}
+
+@media (max-width: 539px) and (min-width:359px) {
+    .navbar-nav{
+
+    }
+    .logo h2 {
+        color: #aaaad1;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding : 0px 300px 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .login-btn{
+        top: 1px;
+        right: 9px;
+        font-size: 15px;
+        justify-content: center;
+        height: 30px;
+        width: 100px;
+        background-color: #0c533f;
+        border: 1px solid white;
+        margin: 10px 0 0 0 ; 
+        border-radius: 5px;
+    }
+    .register-btn{
+        font-size: 15px;
+        justify-content: center;
+        height: 35px;
+        width: 200px;
+        border: 3px solid #0c533f;
+        margin: 12px 33px 0 55px ; 
+    }
+    .oes h1{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    /* ------login ------- */
+
+    .form{
+        width: 70%;
+        padding: 4px;
+      }
+      .form .col{
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    .form button{
+        background-color: #0c533f ;
+        border: 1px solid black;
+    }
+    
+.form h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 1.5rem;
+    margin-bottom: 23px;
+    display: inline-block;
+ }
+ .form p{
+   margin-bottom: 20px;
+   font-size: 0.80rem;
+ }
+ .row .login-space{
+   margin-bottom: 2px;
+ }
+ /*---------- Forgot------------ */
+.row .recover-space {
+    margin-bottom: 15px;
+    margin-top: 3px;
+  }
+
+}
+@media (max-width: 766px) and (min-width:540px) {
+    /* .nav-link{
+        display: flex;
+        float: right;
+        font-size: 2rem;
+    } */
+    .logo h2 {
+        color: #aaaad1;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding : 0px 300px 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .login-btn{
+        top: 1px;
+        right: 9px;
+        font-size: 15px;
+        justify-content: center;
+        height: 35px;
+        width: 100px;
+        border: 2px solid #0c533f;
+        margin: 10px 0 0 0 ; 
+        background: none;
+        border-radius: 5px;
+    }
+    .register-btn{
+        font-size: 1rem;
+        justify-content: center;
+        height: 40px;
+        width: 200px;
+        border: 3px solid #0c533f;
+        margin: 12px 33px 0 120px ; 
+    }
+    .oes h1{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 2.5rem;
+        margin-left: 50px;
+    }
+    /* ------login ------- */
+
+    .form{
+        width: 70%;
+        padding: 4px;
+      }
+      .form .col{
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    .form button{
+        background-color: #0c533f ;
+        border: 1px solid black;
+    }
+    
+.form h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 2rem;
+    margin-bottom: 23px;
+    display: inline-block;
+ }
+ .form p{
+   margin-bottom: 20px;
+   font-size: 1rem;
+ }
+ .form a{
+     font-size: 1rem;
+ }
+ .row .login-space{
+   margin-bottom: 2px;
+ }
+ /*---------- Forgot------------ */
+.row .recover-space {
+    margin-bottom: 15px;
+    margin-top: 3px;
+  }
+}
+@media (max-width: 800px) and (min-width:767px) {
+    /* .nav-link{
+        display: flex;
+        float: right;
+        font-size: 2rem;
+    } */
+    .logo h2 {
+        color: #aaaad1;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding : 0px 300px 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .login-btn{
+        top: 1px;
+        right: 9px;
+        font-size: 25px;
+        justify-content: center;
+        height: 55px;
+        width: 150px;
+        border: 2px solid #0c533f;
+        margin: 10px 0 0 0 ; 
+        background: none;
+        border-radius: 5px;
+    }
+    .register-btn{
+        font-size: 1.70rem;
+        justify-content: center;
+        height: 60px;
+        width: 270px;
+        border: 3px solid #0c533f;
+        margin: 12px 33px 0 165px ; 
+    }
+    .oes h1{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        margin-top: 50%;
+        font-size: 3.5rem;
+        margin-left: 50px;
+    }
+    /* ------login ------- */
+
+    .form{
+        width: 70%;
+        padding: 4px;
+      }
+      .form .col{
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    .form button{
+        background-color: #0c533f ;
+        border: 1px solid black;
+    }
+    .row input{
+        height: 50px;
+    }
+    .row ::placeholder{
+        font-size: 1.70rem;
+    }
+    
+.form h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 2.60rem;
+    margin-bottom: 23px;
+    display: inline-block;
+ }
+ .form p{
+   margin-bottom: 20px;
+   font-size: 1.45rem;
+ }
+ .form a{
+     font-size: 1.45rem;
+ }
+ .row .login-space{
+   margin-bottom: 2px;
+ }
+ /*---------- Forgot------------ */
+.row .recover-space {
+    margin-bottom: 15px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 800px) and (min-width:767px) {
+    /* .nav-link{
+        display: flex;
+        float: right;
+        font-size: 2rem;
+    } */
+    .logo h2 {
+        color: #aaaad1;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding : 0px 300px 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .login-btn{
+        top: 1px;
+        right: 9px;
+        font-size: 25px;
+        justify-content: center;
+        height: 55px;
+        width: 150px;
+        border: 2px solid #0c533f;
+        margin: 10px 0 0 0 ; 
+        background: none;
+        border-radius: 5px;
+    }
+    .register-btn{
+        font-size: 1.70rem;
+        justify-content: center;
+        height: 60px;
+        width: 270px;
+        border: 3px solid #0c533f;
+        margin: 12px 33px 0 165px ; 
+    }
+    .oes h1{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        margin-top: 50%;
+        font-size: 3.5rem;
+        margin-left: 50px;
+    }
+    /* ------login ------- */
+
+    .form{
+        width: 70%;
+        padding: 4px;
+      }
+      .form .col{
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    .form button{
+        background-color: #0c533f ;
+        border: 1px solid black;
+    }
+    .row input{
+        height: 50px;
+    }
+    .row ::placeholder{
+        font-size: 1.70rem;
+    }
+    
+.form h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 2.60rem;
+    margin-bottom: 23px;
+    display: inline-block;
+ }
+ .form p{
+   margin-bottom: 20px;
+   font-size: 1.45rem;
+ }
+ .form a{
+     font-size: 1.45rem;
+ }
+ .row .login-space{
+   margin-bottom: 2px;
+ }
+ /*---------- Forgot------------ */
+.row .recover-space {
+    margin-bottom: 15px;
+    margin-top: 3px;
+  }
+}
+@media (max-width: 1030px) and (min-width:1024px) {
+    /* .nav-link{
+        display: flex;
+        float: right;
+        font-size: 2rem;
+    } */
+    .logo h2 {
+        color: #aaaad1;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding : 0px 300px 0 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    .login-btn{
+        top: 5px;
+        right: 19px;
+        font-size: 2.10rem;
+        justify-content: center;
+        height: 65px;
+        width: 150px;
+        border: 2px solid #0c533f;
+        margin: 10px 0 0 0 ; 
+        background: none;
+        border-radius: 5px;
+    }
+    .register-btn{
+        font-size: 1.9rem;
+        justify-content: center;
+        height: 80px;
+        width: 340px;
+        border: 3px solid #0c533f;
+        margin: 12px 33px 0 190px ; 
+    }
+    .oes h1{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        margin-top: 50%;
+        font-size: 4.5rem;
+        margin-left: 50px;
+    }
+    /* ------login ------- */
+
+    .form{
+        width: 70%;
+        padding: 4px;
+      }
+      .form .col{
+        margin-left: 10px;
+        background-color: transparent;
+    }
+    .form button{
+        background-color: #0c533f ;
+        border: 1px solid black;
+        height: 60px;
+        font-size: 2rem;
+    }
+    .row input{
+        height: 50px;
+        border-radius: 7px;
+        height: 50px;
+    }
+    .row ::placeholder{
+        font-size: 1.70rem;
+    }
+    
+.form h1 {
+    border-bottom: 5px solid #006d4e;
+    font-size: 3.5rem;
+    margin-bottom: 23px;
+    display: inline-block;
+ }
+ .form p{
+   margin-bottom: 20px;
+   font-size: 1.85rem;
+ }
+ .form a{
+     font-size: 1.70rem;
+ }
+ .row .login-space{
+   margin-bottom: 2px;
+ }
+ /*---------- Forgot------------ */
+.row .recover-space {
+    margin-bottom: 15px;
+    margin-top: 3px;
+  }
+}
